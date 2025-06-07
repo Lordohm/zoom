@@ -1,0 +1,36 @@
+/* Reset / Normalize */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Tipografia */
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Layout geral */
+.grid {
+    display: grid;
+}
+
+header .grid {
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 1rem; */
+}
+
+
+
+/* Componentes */
+/* Utilitários */
